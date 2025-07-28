@@ -5,10 +5,12 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+# Required perms for Pages deploy v4
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: "pages"
@@ -32,14 +34,14 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Setup Pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: SPA fallback (optional)
         run: if [ -f dist/index.html ]; then cp dist/index.html dist/404.html; fi
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3   # ← v3 is the latest tag
         with:
           path: dist
 
