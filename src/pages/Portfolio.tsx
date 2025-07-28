@@ -64,8 +64,8 @@ const Portfolio = () => {
         </div>
       </div>
       
-      <main className="md:ml-64 px-4 md:px-8 py-16 md:py-16 pt-20 md:pt-16">
-        <div className="max-w-4xl">
+      <main className="md:ml-64 px-4 md:px-8 py-16 md:py-16 pt-20 md:pt-16 flex justify-center">
+        <div className="max-w-4xl w-full">
           {renderSection()}
         </div>
       </main>
