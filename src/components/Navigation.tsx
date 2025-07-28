@@ -16,37 +16,27 @@ interface NavigationProps {
 }
 
 export const Navigation = ({ activeSection, onSectionChange }: NavigationProps) => {
-  const activeIndex = navigationItems.findIndex(item => item.id === activeSection);
-  
   return (
-    <nav className="fixed left-8 top-1/2 transform -translate-y-1/2 z-10">
-      <div className="relative">
-        {/* Animated dot */}
-        <div 
-          className="absolute left-0 w-2 h-2 bg-primary rounded-full transition-transform duration-300 ease-out"
-          style={{ 
-            transform: `translateY(${activeIndex * 40 + 6}px)`,
-            left: '-12px'
-          }}
-        />
-        
-        <ul className="space-y-2">
-          {navigationItems.map((item) => (
-            <li key={item.id}>
-              <button
-                onClick={() => onSectionChange(item.id)}
-                className={`text-left font-serif transition-colors duration-200 hover:text-primary pl-4 ${
-                  activeSection === item.id 
-                    ? 'text-primary font-medium' 
-                    : 'text-muted-foreground'
-                }`}
-              >
-                {item.label}
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <nav className="fixed left-4 md:left-8 top-1/2 transform -translate-y-1/2 z-10 hidden md:block">
+      <ul className="space-y-2">
+        {navigationItems.map((item) => (
+          <li key={item.id}>
+            <button
+              onClick={() => onSectionChange(item.id)}
+              className={`text-left font-serif transition-colors duration-200 hover:text-primary flex items-center gap-2 ${
+                activeSection === item.id 
+                  ? 'text-primary font-medium' 
+                  : 'text-muted-foreground'
+              }`}
+            >
+              <span className={`w-1 h-1 rounded-full transition-all duration-200 ${
+                activeSection === item.id ? 'bg-primary' : 'bg-transparent'
+              }`} />
+              {item.label}
+            </button>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };
