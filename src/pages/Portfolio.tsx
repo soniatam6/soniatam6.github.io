@@ -2,15 +2,11 @@ import { useState } from "react";
 import { Navigation } from "@/components/Navigation";
 import { Home } from "@/components/sections/Home";
 import { PastWork } from "@/components/sections/PastWork";
-import { PersonalProjects } from "@/components/sections/PersonalProjects";
-import { Writing } from "@/components/sections/Writing";
 import { Footer } from "@/components/Footer";
 
 const navigationItems = [
   { id: "home", label: "Home" },
-  { id: "past-work", label: "Past Work" },
-  { id: "personal-projects", label: "Personal Projects" },
-  { id: "writing", label: "Writing" },
+  { id: "past-work", label: "Projects" },
 ] as const;
 
 type SectionId = (typeof navigationItems)[number]["id"];
@@ -24,10 +20,6 @@ const Portfolio = () => {
         return <Home />;
       case "past-work":
         return <PastWork />;
-      case "personal-projects":
-        return <PersonalProjects />;
-      case "writing":
-        return <Writing />;
       default:
         return <Home />;
     }

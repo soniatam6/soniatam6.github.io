@@ -42,19 +42,17 @@ export const Home = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 marker:text-stone-400 text-muted-foreground">
             <li>
-              <p> Built a self-serve rankings dashboard for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls} target="_blank" rel="noreferrer">
-                Coinbase International Exchange
-              </a></p> 
+              <p> Shipped a self-serve rankings leaderboard for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls} target="_blank" rel="noreferrer">
+                Coinbase International Exchange. 
+              </a> Also launched the trading UI for the exchange, working with engineers to build features like TP/SL and TWAP. </p> 
             </li>
             <li>
-              <p>Redesigned all 17 of <a href="https://www.airwallex.com/us" className={linkCls} target="_blank" rel="noreferrer"> Airwallex's</a> product landing pages, 
-              defining the product narratives for their new embedded finance products</p>
+              <p>Redesigned all 17 of <a href="https://www.airwallex.com/us" className={linkCls} target="_blank" rel="noreferrer"> Airwallex's</a> product landing pages for their corporate website, 
+              launching it in 11 regions within 6 months. Built an image localization tool along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
-              <p>Built an <a href="https://www.airwallex.com/us" className={linkCls} target="_blank" rel="noreferrer"> image localization tool</a> to help designers launch Airwallex's website in 11 regions under 3 weeks </p>
-            </li>
-            <li>
-              <p>Built an AI <a href="https://www.airwallex.com/us" className={linkCls} target="_blank" rel="noreferrer"> copy suggestion Figma plugin</a> for product designers</p>
+              <p>Been very fortunate to work closely with the <a href="https://www.linkedin.com/in/maxbydesign/" className={linkCls} target="_blank" rel="noreferrer"> cofounder / Head of Design </a> of Airwallex for 1 year, doing everything for the design team from helping out with recruiting candidates to building
+                an AI <a href="https://drive.google.com/file/d/12OpE-TE-FBFYGkohX-AOq_bk-tYtc6H0/view?usp=sharing" className={linkCls} target="_blank" rel="noreferrer"> copy suggestion Figma plugin</a> for product designers</p>
             </li>
             <li>
               <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls} target="_blank" rel="noreferrer">Cabrium AI</a>, a startup aimed to empower product designers to make better decisions by collecting, documenting, and suggesting decisions made during the design process </p>

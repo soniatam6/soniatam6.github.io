@@ -7,7 +7,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
     "noImplicitAny": false,
     "noUnusedParameters": false,
@@ -15,5 +15,8 @@
     "allowJs": true,
     "noUnusedLocals": false,
     "strictNullChecks": false
-  }
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["src", "vite-env.d.ts"]
 }
