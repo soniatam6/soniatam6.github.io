@@ -24,8 +24,8 @@ export const Home = () => {
           <p className="text-muted-foreground">
             I recently graduated from the University of Pennsylvania, where I
             studied Cognitive Science and Computer Science.</p><p className="text-muted-foreground"> I’m interested in complex systems — anything
-            from the human psyche to the artificial mind to the macroeconomic machine. I follow where my 
-            curiosity leads me, and I’m always looking for new challenges.
+              from the human psyche to the artificial mind to the macroeconomic machine. I follow where my
+              curiosity leads me, and I’m always looking for new challenges.
           </p>
         </div>
       </section>
@@ -38,24 +38,25 @@ export const Home = () => {
         <h2 className="text-base font-bold">Past Work</h2>
         <div>
           <p className="mb-3">
-            I love building complex things, fast. In the past, I've: 
+            I love building complex things, fast. In the past, I've:
           </p>
           <ul className="list-disc pl-5 space-y-2 marker:text-stone-400 text-muted-foreground">
             <li>
-              <p> Shipped a self-serve rankings leaderboard for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls} target="_blank" rel="noreferrer">
-                Coinbase International Exchange. 
-              </a> Also launched the trading UI for the exchange, working with engineers to build features like TP/SL and TWAP. </p> 
+              <p> Shipped a self-serve <a href="/past-work/rankings" className={linkCls}>rankings leaderboard </a>for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls}>
+                Coinbase International Exchange.
+              </a> Also launched the trading UI for the exchange and shipped features like TPSL. </p>
             </li>
             <li>
-              <p>Redesigned all 17 of <a href="https://www.airwallex.com/us" className={linkCls} target="_blank" rel="noreferrer"> Airwallex's</a> product landing pages for their corporate website, 
-              launching it in 11 regions within 6 months. Built an image localization tool along the way to help the team overcome some hurdles.</p>
+              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their corporate website,
+                launching it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
-              <p>Been very fortunate to work closely with the <a href="https://www.linkedin.com/in/maxbydesign/" className={linkCls} target="_blank" rel="noreferrer"> cofounder / Head of Design </a> of Airwallex for 1 year, doing everything for the design team from helping out with recruiting candidates to building
-                an AI <a href="https://drive.google.com/file/d/12OpE-TE-FBFYGkohX-AOq_bk-tYtc6H0/view?usp=sharing" className={linkCls} target="_blank" rel="noreferrer"> copy suggestion Figma plugin</a> for product designers</p>
+              <p>Been very fortunate to work closely with the cofounder / Head of Design of Airwallex for 1 year, doing everything for the design team from helping out with recruiting candidates to building
+                an AI <a href="/past-work/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers</p>
             </li>
             <li>
-              <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls} target="_blank" rel="noreferrer">Cabrium AI</a>, a startup aimed to empower product designers to make better decisions by collecting, documenting, and suggesting decisions made during the design process </p>
+              <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls}>Cabrium AI</a>, a startup aimed to empower product designers 
+              to make better decisions by collecting, documenting, and suggesting decisions made during the design process. Won $10k in Penn's Venture Lab <a href="https://venturelab.upenn.edu/startup-challenge" className={linkCls}>Startup Challenge.</a></p>
             </li>
           </ul>
         </div>
@@ -73,7 +74,7 @@ export const Home = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>
-              <p> Redesigning and exploring the <a href="#" className={linkCls}>
+              <p> Redesigning and exploring the <a href="/past-work/search" className={linkCls}>
                 AI search experience
               </a></p>
             </li>
@@ -139,8 +140,8 @@ export const Home = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li className="text-muted-foreground"><a href="https://www.sfomuseum.org/exhibitions/camille-seaman-big-cloud" className={linkCls}>
-                Storm chasing
-              </a> and cloud watching</li>
+              Storm chasing
+            </a> and cloud watching</li>
             <li className="text-muted-foreground">
               Playing the pipe organ
             </li>
@@ -153,9 +154,7 @@ export const Home = () => {
               </a>, Surrealist art, Romanticist paintings
             </li>
             <li className="text-muted-foreground">
-              The art of flamenco, classical Spanish guitar, acoustic rock - especially <a href="https://www.rodgab.com/" className={linkCls}>
-                Rodrigo y Gabriela
-              </a>
+              The art of flamenco, classical Spanish guitar, acoustic rock
             </li>
             <li className="text-muted-foreground">
               Cooking and baking for others
@@ -223,7 +222,7 @@ export const Home = () => {
         <h2 className="text-base font-bold">Favorite Books &amp; Films</h2>
         <div>
           <p className="text-muted-foreground mb-3">Books or movies that struck a chord</p>
-          <ul className="list-disc pl-5 space-y-2 marker:text-stone-400">
+          <ul className="list-disc pl-5 space-y-2 pb-3 marker:text-stone-400">
             <li className="text-muted-foreground">
               <em>Brave New World</em> — Aldous Huxley
             </li>
@@ -256,6 +255,9 @@ export const Home = () => {
             </li>
 
           </ul>
+          <p className="text-muted-foreground mb-3">A lot of these books came from when I took one of my favorite classes at Penn, 
+          <a href="https://www.thedp.com/article/2017/03/penn-7-hour-class-on-existential-despair-this-fall" className={linkCls}> Existential Despair</a>. 
+          Definitely an unforgettable class.</p>
         </div>
       </section>
     </div>
