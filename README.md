@@ -1,7 +1,7 @@
 # soniatam6.github.io
 
 Personal site for Sonia Tam — built with **React + TypeScript + Vite**, styled with **Tailwind (shadcn tokens)**, and deployed on **GitHub Pages**.  
-The project was scaffolded with **Lovable**, then iterated with **ChatGPT** for component structure, layout, and deployment workflow, plus my own frontend tweaks.
+The project was scaffolded with **Lovable**, then I iteratively built it with **ChatGPT** for main content, component structure, layout, and deployment workflow.
 
 ---
 
