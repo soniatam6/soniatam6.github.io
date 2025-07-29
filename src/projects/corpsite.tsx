@@ -108,8 +108,6 @@ export default function Corpsite() {
         </article>
       </main>
 
-      {/* shared footer */}
-      <Footer />
     </div>
   );
 }

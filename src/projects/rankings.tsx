@@ -61,8 +61,6 @@ export default function Rankings() {
         </article>
       </main>
 
-      {/* shared footer */}
-      <Footer />
     </div>
   );
 }

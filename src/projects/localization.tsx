@@ -140,8 +140,6 @@ export default function Localization() {
         </article>
       </main>
 
-      {/* shared footer */}
-      <Footer />
     </div >
   );
 }
