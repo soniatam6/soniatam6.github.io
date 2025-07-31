@@ -13,6 +13,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "search",
+    title: "Reimagining the AI Search Results UX",
+    year: "2025",
+    role: "Personal Project",
+    blurb:
+      "Using AI tools to rethink how to make the AI generated summary in Glean's search results page can better help employees make informed decisions",
+    imageSrc: "/images/projects/ai-search-redesign.jpg",
+    imageAlt: "AI search results page redesign",
+  },
+  {
     slug: "rankings",
     title: "Coinbase Rankings Leaderboard",
     year: "2024",
@@ -51,16 +61,6 @@ export const projects: Project[] = [
       "Built a GPT powered copy suggestion Figma plugin for designers to improve their copy based on content guidelines.",
     imageSrc: "/images/projects/copy-plugin.jpg",
     imageAlt: "Figma plugin for AI copy suggestions",
-  },
-  {
-    slug: "search",
-    title: "Redesigning AI Search",
-    year: "2024",
-    role: "Product Design",
-    blurb:
-      "Redesigning the user experience for Glean's traditional search and AI powered search results page.",
-    imageSrc: "/images/projects/ai-search-redesign.jpg",
-    imageAlt: "AI search results page redesign",
   },
 ];
 

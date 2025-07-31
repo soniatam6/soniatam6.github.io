@@ -23,9 +23,8 @@ export const Home = () => {
         <div>
           <p className="text-muted-foreground">
             I recently graduated from the University of Pennsylvania, where I
-            studied Cognitive Science and Computer Science.</p><p className="text-muted-foreground"> I’m interested in complex systems — anything
-              from the human psyche to the artificial mind to the macroeconomic machine. I follow where my
-              curiosity leads me, and I’m always looking for new challenges.
+            studied Cognitive Science and Computer Science. I’m interested in complex systems — anything
+              from the human psyche to the artificial mind to the macroeconomic machine. I'm currently interested in how AI can enhance, not dull, human thought.
           </p>
         </div>
       </section>
@@ -47,12 +46,12 @@ export const Home = () => {
               </a> Also launched the trading UI for the exchange and shipped features like TPSL. </p>
             </li>
             <li>
-              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their corporate website,
-                launching it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
+              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their corporate website and
+                launched it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
               <p>Been very fortunate to work closely with the cofounder / Head of Design of Airwallex for 1 year, doing everything for the design team from helping out with recruiting candidates to building
-                an AI <a href="/past-work/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers</p>
+                an AI <a href="/past-work/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers.</p>
             </li>
             <li>
               <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls}>Cabrium AI</a>, a startup aimed to empower product designers 
@@ -70,63 +69,28 @@ export const Home = () => {
         <h2 className="text-base font-bold">Personal Projects</h2>
         <div>
           <p className="mb-3">
-            Some personal projects I've dabbled in to learn and explore more about the world:
+            I'm obsessed with understanding how the world works. These are some personal projects 
+            I'm working on or have dabbled in to expand my understanding:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>
-              <p> Redesigning and exploring the <a href="/past-work/search" className={linkCls}>
-                AI search experience
+              <p> Using AI tools to reimagine the <a href="/past-work/search" className={linkCls}>
+                AI search results experience
               </a></p>
             </li>
             <li>
-              <p> Articulating and building my own thesis of the future</p>
+              <p> Learning to speak, listen, and read Korean</p>
             </li>
             <li>
-              <p> Curating a portfolio of my own taste in terms of the 5 senses</p>
+              <p> Learning to play the classical guitar</p>
+            </li>
+            <li>
+              <p> Learning macroeconomics and basics of econometrics</p>
             </li>
           </ul>
         </div>
       </section>
 
-      {/* ---------- Writing ---------- */}
-      <section
-        id="writing"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
-      >
-        <h2 className="text-base font-bold">Writing</h2>
-        <div>
-          <p className="mb-3">
-            Reflections and ramblings about everything from culture to the human condition.
-          </p>
-          <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
-            <li>
-              <p> <a href="https://soniatam.substack.com/p/our-current-dystopia" className={linkCls}>
-                Our current dystopia
-              </a> - on the flattening of humanity and necessity of suffering</p>
-            </li>
-            <li>
-              <p> <a href="https://soniatam.substack.com/p/psychology-of-fraternities" className={linkCls}>
-                The psychology of Greek life
-              </a> - what purpose do fraternities serve?</p>
-            </li>
-            <li>
-              <p> <a href="https://soniatam.substack.com/p/our-relationship-with-information" className={linkCls}>
-                Our relationship with information
-              </a> - how is AI changing the way we interact with knowledge?</p>
-            </li>
-            <li>
-              <p> <a href="https://soniatam.substack.com/p/agency" className={linkCls}>
-                Agency
-              </a> - what is agency in the face of chaos?</p>
-            </li>
-            <li>
-              <p> <a href="https://soniatam.substack.com/p/ruminations-on-abstraction" className={linkCls}>
-                Ruminations on abstraction
-              </a> - on the topic of art as escapism and the marriage of art and music</p>
-            </li>
-          </ul>
-        </div>
-      </section>
 
       {/* ---------- Things I love ---------- */}
       <section
@@ -160,7 +124,7 @@ export const Home = () => {
               Cooking and baking for others
             </li>
             <li className="text-muted-foreground">
-              Scuba diving and exploring the ocean
+              Scuba diving, wakeboarding, and exploring the ocean
             </li>
           </ul>
         </div>

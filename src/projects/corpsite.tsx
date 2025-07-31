@@ -50,12 +50,12 @@ export default function Corpsite() {
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">The Problem</h2>
               <p>
-                Airwallex’s rapid scaling and its simultaneous rollout of 3 new embedded‑finance offerings made the existing
-                corporate website feel outdated and unrepresentative. Externally, prospective customers and investors landing on a product page couldn’t immediately
+                Airwallex’s rapid scaling and its expansion into embedded finance made the existing
+                corporate website feel outdated and unrepresentative. Externally, potential customers and investors landing on a product page couldn’t immediately
                 grasp what each product was, how it worked, or why it mattered. Internally, teams from product, marketing, and sales lacked a shared,
-                consistent story to answer those very questions. The website revamp project therefore had to serve two goals: craft clear,
+                consistent narrative to answer those very questions. The website revamp project therefore had to serve two goals: craft clear,
                 persuasive landing pages that laid out the “what, how, and why” for users, while also aligning every stakeholder around a single,
-                coherent narrative for these unfamiliar products.
+                coherent narrative for each product.
               </p>
             </div>
 
@@ -64,8 +64,9 @@ export default function Corpsite() {
               <p>
                 As product designer and product owner of the website, I led the revamp of Airwallex’s corporate site. This involved working iteratively with product, marketing, design, C-suite executives, and sales teams to define the product
                 positioning for each of products, gradually building alignment across all stakeholders amidst the ambiguity. Through design, I translated these narratives into landing pages that clearly articulated the what, how, and why of each product.
-                I also worked closely with the engineering team define the mobile designs, responsive behavior, content modeling, and design system. After months of work, I led the team to launch the revamped site localized to each of the 11 regions,
-                just in time for our CEO and team to show it to investors and clients at the Money 20/20 conference.
+                I also worked closely with the engineering team define the mobile designs, responsive behavior, content modeling, and design system. </p>
+              <p>After months of work, I led the team to launch the revamped site localized to each of the 11 regions,
+                just in time for our CEO and team to show it to investors and clients at the 2023 Money 20/20 conference.
               </p>
             </div>
 

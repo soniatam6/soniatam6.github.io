@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 const navigationItems = [
-  { id: "home", label: "Home" },
+  { id: "home", label: "About" },
   { id: "past-work", label: "Projects" },
+  { id: "writing", label: "Writing" },
 ];
 
 interface NavigationProps {

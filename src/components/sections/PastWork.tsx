@@ -14,10 +14,6 @@ export function PastWork() {
         Projects
       </h1>
 
-      <p className="font-serif text-muted-foreground mb-10">
-        A selection of my past work, including projects from my
-        internships and personal projects. 
-      </p>
 
       <div id="past-work" className="grid gap-8 sm:gap-10 sm:grid-cols-2">
         {projects.map((p) => (

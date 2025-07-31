@@ -41,7 +41,7 @@ export default function Rankings() {
           {/* placeholder sections */}
           <section className="mt-10 space-y-6 text-muted-foreground">
             <div className="space-y-2">
-              <h2 className="text-2xl text-foreground">Overview</h2>
+              <h2 className="text-3xl text-foreground">Overview</h2>
               <p>
                 Coinbase International Exchange serves institutional market makers who are rewarded based on their trading volume, where their rewards are dependent
                 on their rankings relative to other market makers. The rankings dashboard is a self-serve tool that allows market makers to view their current rankings,
@@ -50,10 +50,12 @@ export default function Rankings() {
             </div>
 
             <div className="space-y-2">
-              <h2 className="text-2xl text-foreground">My Role</h2>
+              <h2 className="text-3xl text-foreground">My Role</h2>
               <p>
-                I worked closely with product, sales, and engineering teams to define the product requirements,
-                design the user experience, and lead the development of the rankings UI and API. This was one of my two projects during my internship, my other project
+                I worked closely with sales, design, and engineering teams to define the product requirements,
+                design the user experience, and lead the development of the rankings UI and API. Since our clients were 
+                large institutions, the user research and understanding of user needs came directly from our sales representative 
+                talking to different clients directly. This was one of my two projects during my internship, my other project
                 being launching the trading UI for 50+ institutional clients.
               </p>
             </div>
