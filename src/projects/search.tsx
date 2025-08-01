@@ -26,25 +26,23 @@ export default function Search() {
                     <p className="mt-1 text-sm text-muted-foreground">
                         July 2025 · Personal Project
                     </p>
-
-                    <figure
-                        className="breakout mt-8 overflow-hidden rounded-lg">
-                        <iframe
-                            src="https://bamboo-learn-07170954.figma.site"
-                            className="w-full"
-                            height="700"
-                            loading="lazy"
-                        />
-                    </figure>
-
+                    <figure className="overflow-hidden rounded-lg border">
+                                {/* TODO: replace io-diagram.jpg with your actual image */}
+                                <img
+                                    src="/images/projects/search/hero.png"
+                                    alt="Glean's existing search results page"
+                                    className="w-full object-cover"
+                                />
+                            </figure>
+                    
                     {/* placeholder sections */}
                     <section className="mt-10 space-y-6 text-muted-foreground">
                         <div className="space-y-2">
                             <h2 className="text-3xl text-foreground">Overview</h2>
                             <p>
-                                Coinbase International Exchange serves institutional market makers who are rewarded based on their trading volume, where their rewards are dependent
-                                on their rankings relative to other market makers. The rankings dashboard is a self-serve tool that allows market makers to view their current rankings,
-                                track their performance, and compare themselves against competitors, all of which helps them optimize their trading strategies.
+                                I've personally noticed that AI search summaries have been making people more intellectually lazy. This is a personal case study 
+                                on how to reimagine Glean's AI search results page to enhance, not dull, human thought. I used a combination of Lovable and Figma Make
+                                to build a working prototype in 2 days, and wrote my thoughts and reflection what it means to be enhanced by AI.
                             </p>
                         </div>
 
@@ -176,15 +174,13 @@ export default function Search() {
                             Knowing all of this, let’s focus on one specific user story:
                             an employee who asks a question to Glean Search, and who has stakes in what the AI gives as an answer.
                         </p>
-                        <ol className="list-disc pl-6 space-y-2 text-muted-foreground">
-                            <li>As a Product Manager, I want to ask Glean “What’s the latest on Infra Project V5?” because I need to update stakeholders in tomorrow’s committee meeting, and I don’t have time to sift through dozens of documents and Slack threads.
-                            </li>
-                            <li>Perhaps I am not the main PM or I am substituting temporarily for
-                                someone else, but either way the stakeholders will take me responsible
-                                for what I say. I know the CTO may challenge a detail (“did security really sign off?”)
-                                or Legal may demand the exact wording of the compliance memo. If I just rely on the AI generated summary and I can’t point to the precise sentence to back me up, my credibility will be negatively affected.
-                            </li>
-                        </ol>
+                        <figure className="overflow-hidden max-w-md mx-auto rounded-lg">
+                            <img
+                                src="/images/projects/search/user-story.svg"
+                                alt="Glean's existing search results page"
+                                className="w-full object-cover"
+                            />
+                        </figure>
                         <p className="text-muted-foreground">From this user story, we can deduce that the AI search must deliver the following qualities:
                         </p>
                         <ol className="list-disc pl-6 space-y-2 text-muted-foreground">
@@ -197,17 +193,53 @@ export default function Search() {
                             <li><strong>Follow up</strong> – if I have more questions as a PM, who can I ask? How can I contact them? Who was the last person who edited this? How long ago was it edited? </li>
                             <li><strong>Suggestions on relevancy</strong> – is there anything else that I might need to know about the project, for example tangential projects that might impact the progress of this one? </li>
                         </ol>
-                        <p className="text-muted-foreground"> Based on these qualities, we can turn these into tangible deisgn changes:
+                        <p className="text-muted-foreground"> Based on these qualities, we can turn these into tangible design changes:
                         </p>
                         <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">
                             <li><strong>Direct quotations</strong> that lead to a doc preview of the highlighted quote in the document
-                                The preview could show Author, Last edited, and highlights exactly where the quote comes from so that 
+                                The preview could show Author, Last edited, and highlights exactly where the quote comes from so that
                                 users can see what context the quote is in and decide for themselves whether that is a valid thing to believe or bench on
                             </li>
                             <li><strong>Author chips</strong> – adding an easy way for the user to reach out to the relevant contributors to the project so that they can easily ask follow up questions </li>
                             <li><strong>Confidence banner</strong> – if sources conflict (say one Slack thread says this about the latest, but the Infra project document says another) then AI should flag that and tell the user to clarify </li>
                         </ol>
                     </div>
+                    <div className="mt-10 space-y-2">
+                        <h2 className="text-3xl text-foreground">Final Prototype</h2>
+                        <p className="text-muted-foreground">Feel free to play around with the prototype. You can:</p>
+                        <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">
+                            <li>Click on purple highlighted quotes to open up a document preview to see where the quote came from
+                            </li>
+                            <li>Hover over the people to see how you can reach out to them</li>
+                            <li>Click on the red highlighted quote to see warning banners regarding conflicting information </li>
+                        </ol>
+                        <p className="text-muted-foreground">This was put together using a combination of Lovable and Figma Make in ~2 days, so this is definitely not production level design quality. But I had a lot of fun playing around with it.</p>
+                        <figure
+                            className="breakout mt-8 overflow-hidden rounded-lg">
+                            <iframe
+                                src="https://bamboo-learn-07170954.figma.site"
+                                className="w-full"
+                                height="700"
+                                loading="lazy"
+                            />
+                        </figure>
+                    </div>
+                    <div className="mt-10 space-y-2">
+                        <h2 className="text-3xl text-foreground">Reflections on Using AI</h2>
+                        <p className="text-muted-foreground">For this project, I used both Lovable and Figma Make to generate the prototype. 
+                            Both Figma Make and Lovable are AI prompt and build tools, similar to bolt.dev. Both are great. There’s not much difference between them. 
+                            Both are incredible for a product manager who wants to quickly put together a working proof-of-concept or demo to show stakeholders – 
+                            I felt like I was literally supercharged, like I’d just ran over the rainbow speed enhancing thing in Super Mario Kart. 
+                            But I’m not sure if I would rely on either of them for production level apps. For one, I think the visual aesthetic quality that these apps 
+                            generate simply isn't product level design quality, so I still see designers being very relevant as they have to design something in Figma 
+                            before feeding it into Lovable/Figma Make. But these apps do indicate a huge shift in where the product development world is headed. 
+                        </p>
+                        <p className="text-muted-foreground">You can read more about my thoughts and reflection <a href="https://soniatam.substack.com/p/ai-as-augmentation-not-replacement" className={linkCls}>
+                                    here.
+                                </a> </p>
+                    </div>
+                    
+
                 </article>
             </main>
 

@@ -25,9 +25,9 @@ export const Writing = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>
-              <p> <a href="https://soniatam.substack.com/p/our-current-dystopia" className={linkCls}>
-                AI as enhancement, not replacement
-              </a> - on the flattening of humanity and necessity of suffering</p>
+              <p> <a href="https://soniatam.substack.com/p/ai-as-augmentation-not-replacement" className={linkCls}>
+                AI as augmentation, not replacement
+              </a> - my thoughts and experience using AI tools to enhance me</p>
             </li>
             <li>
               <p> <a href="https://soniatam.substack.com/p/our-current-dystopia" className={linkCls}>

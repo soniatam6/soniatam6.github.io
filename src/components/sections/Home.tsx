@@ -50,12 +50,12 @@ export const Home = () => {
                 launched it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
-              <p>Been very fortunate to work closely with the cofounder / Head of Design of Airwallex for 1 year, doing everything for the design team from helping out with recruiting candidates to building
+              <p>Worked closely with the cofounder / Head of Design of Airwallex for a year, doing everything for the design team from helping out with recruiting candidates, design operations, to building
                 an AI <a href="/past-work/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers.</p>
             </li>
             <li>
               <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls}>Cabrium AI</a>, a startup aimed to empower product designers 
-              to make better decisions by collecting, documenting, and suggesting decisions made during the design process. Won $10k in Penn's Venture Lab <a href="https://venturelab.upenn.edu/startup-challenge" className={linkCls}>Startup Challenge.</a></p>
+              to make better decisions by collecting, documenting, and suggesting decisions made during the design process. Won the Summer Venture Award in Penn's Venture Lab <a href="https://venturelab.upenn.edu/nirby-wins-50-000-perlman-grand-prize-in-startup-challenge-presented-by-venture-lab-at-the-university-of-pennsylvania" className={linkCls}>Startup Challenge.</a></p>
             </li>
           </ul>
         </div>
@@ -69,8 +69,7 @@ export const Home = () => {
         <h2 className="text-base font-bold">Personal Projects</h2>
         <div>
           <p className="mb-3">
-            I'm obsessed with understanding how the world works. These are some personal projects 
-            I'm working on or have dabbled in to expand my understanding:
+            Some personal projects I'm working on or have dabbled in:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>
@@ -83,9 +82,6 @@ export const Home = () => {
             </li>
             <li>
               <p> Learning to play the classical guitar</p>
-            </li>
-            <li>
-              <p> Learning macroeconomics and basics of econometrics</p>
             </li>
           </ul>
         </div>
