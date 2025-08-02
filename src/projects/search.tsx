@@ -12,8 +12,8 @@ export default function Search() {
     return (
         <div className="mx-auto max-w-3xl">
             {/* main content */}
-            <main className="mx-auto px-4">
-                <article className="mx-auto px-4">
+            <main className="mx-auto ">
+                <article className="mx-auto ">
                     {/* back link */}
                     <Link to="/projects" className={linkCls}>
                         ← Back to projects
@@ -27,20 +27,20 @@ export default function Search() {
                         July 2025 · Personal Project
                     </p>
                     <figure className="overflow-hidden rounded-lg border">
-                                {/* TODO: replace io-diagram.jpg with your actual image */}
-                                <img
-                                    src="/images/projects/search/hero.png"
-                                    alt="Glean's existing search results page"
-                                    className="w-full object-cover"
-                                />
-                            </figure>
-                    
+                        {/* TODO: replace io-diagram.jpg with your actual image */}
+                        <img
+                            src="/images/projects/search/hero.png"
+                            alt="Glean's existing search results page"
+                            className="w-full object-cover"
+                        />
+                    </figure>
+
                     {/* placeholder sections */}
                     <section className="mt-10 space-y-6 text-muted-foreground">
                         <div className="space-y-2">
                             <h2 className="text-3xl text-foreground">Overview</h2>
                             <p>
-                                I've personally noticed that AI search summaries have been making people more intellectually lazy. This is a personal case study 
+                                I've personally noticed that AI search summaries have been making people more intellectually lazy. This is a personal case study
                                 on how to reimagine Glean's AI search results page to enhance, not dull, human thought. I used a combination of Lovable and Figma Make
                                 to build a working prototype in 2 days, and wrote my thoughts and reflection what it means to be enhanced by AI.
                             </p>
@@ -226,19 +226,19 @@ export default function Search() {
                     </div>
                     <div className="mt-10 space-y-2">
                         <h2 className="text-3xl text-foreground">Reflections on Using AI</h2>
-                        <p className="text-muted-foreground">For this project, I used both Lovable and Figma Make to generate the prototype. 
-                            Both Figma Make and Lovable are AI prompt and build tools, similar to bolt.dev. Both are great. There’s not much difference between them. 
-                            Both are incredible for a product manager who wants to quickly put together a working proof-of-concept or demo to show stakeholders – 
-                            I felt like I was literally supercharged, like I’d just ran over the rainbow speed enhancing thing in Super Mario Kart. 
-                            But I’m not sure if I would rely on either of them for production level apps. For one, I think the visual aesthetic quality that these apps 
-                            generate simply isn't product level design quality, so I still see designers being very relevant as they have to design something in Figma 
-                            before feeding it into Lovable/Figma Make. But these apps do indicate a huge shift in where the product development world is headed. 
+                        <p className="text-muted-foreground">For this project, I used both Lovable and Figma Make to generate the prototype.
+                            Both Figma Make and Lovable are AI prompt and build tools, similar to bolt.dev. Both are great. There’s not much difference between them.
+                            Both are incredible for a product manager who wants to quickly put together a working proof-of-concept or demo to show stakeholders –
+                            I felt like I was literally supercharged, like I’d just ran over the rainbow speed enhancing thing in Super Mario Kart.
+                            But I’m not sure if I would rely on either of them for production level apps. For one, I think the visual aesthetic quality that these apps
+                            generate simply isn't product level design quality, so I still see designers being very relevant as they have to design something in Figma
+                            before feeding it into Lovable/Figma Make. But these apps do indicate a huge shift in where the product development world is headed.
                         </p>
                         <p className="text-muted-foreground">You can read more about my thoughts and reflection <a href="https://soniatam.substack.com/p/ai-as-augmentation-not-replacement" className={linkCls}>
-                                    here.
-                                </a> </p>
+                            here.
+                        </a> </p>
                     </div>
-                    
+
 
                 </article>
             </main>
