@@ -9,6 +9,7 @@ import { Home } from "@/components/sections/Home";
 import { PastWork } from "@/components/sections/PastWork";
 import { PersonalProjects } from "@/components/sections/PersonalProjects";
 import { Writing } from "@/components/sections/Writing";
+import { Music } from "@/components/sections/Music";
 import ProjectDetail from "@/pages/ProjectDetail";
 import NotFound from "@/pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -35,6 +36,7 @@ const App = () => (
 
             <Route path="personal-projects" element={<PersonalProjects />} />
             <Route path="writing" element={<Writing />} />
+            <Route path="music" element={<Music />} />
 
           </Route>
 

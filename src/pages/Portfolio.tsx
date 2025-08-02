@@ -3,12 +3,14 @@ import { Navigation } from "@/components/Navigation";
 import { Home } from "@/components/sections/Home";
 import { PastWork } from "@/components/sections/PastWork";
 import { Writing } from "@/components/sections/Writing";
+import { Music } from "@/components/sections/Music";
 import { Footer } from "@/components/Footer";
 
 const navigationItems = [
   { id: "home", label: "Home" },
   { id: "past-work", label: "Projects" },
   { id: "writing", label: "Writing" },
+  { id: "music", label: "Music" },
 ] as const;
 
 type SectionId = (typeof navigationItems)[number]["id"];
@@ -24,6 +26,8 @@ const Portfolio = () => {
         return <PastWork />;
       case "writing":
         return <Writing />;
+      case "music":
+        return <Music />;
       default:
         return <Home />;
     }

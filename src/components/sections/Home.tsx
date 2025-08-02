@@ -24,7 +24,7 @@ export const Home = () => {
           <p className="text-muted-foreground">
             I recently graduated from the University of Pennsylvania, where I
             studied Cognitive Science and Computer Science. I’m interested in complex systems — anything
-              from the human psyche to the artificial mind to the macroeconomic machine. I'm currently interested in how AI can enhance, not dull, human thought.
+              from the human psyche to the artificial mind to the macroeconomic machine. I'm currently interested in how AI can augment, not replace, humans.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export const Home = () => {
               </a> Also launched the trading UI for the exchange and shipped features like TPSL. </p>
             </li>
             <li>
-              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their corporate website and
+              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their website and
                 launched it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
@@ -96,7 +96,7 @@ export const Home = () => {
         <h2 className="text-base font-bold">Things I Love</h2>
         <div>
           <p className="mb-3">
-            Things that make me feel alive, keep me grounded, and are near and dear to my heart.
+            Things that make me feel alive, keep me grounded, and are near and dear to my heart:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li className="text-muted-foreground"><a href="https://www.sfomuseum.org/exhibitions/camille-seaman-big-cloud" className={linkCls}>
@@ -141,13 +141,10 @@ export const Home = () => {
               What explains the 1990s Japanese "lost decade" and the current Japanese economic stagnation? Is China headed for a similar fate?
             </li>
             <li className="text-muted-foreground">
-              How does modern Chinese history (Mao Zedong, the Cultural Revolution, Chinese Civil War etc.) shape the current Chinese psyche and politics?
-            </li>
-            <li className="text-muted-foreground">
               How did Japan and China respond differently to the West/modernization in the 19th and 20th century, and how did that shape their current cultural identities?
             </li>
             <li className="text-muted-foreground">
-              What do the current political polarization, cultural degredation, increasing wealth inequality, and ongoing de-dollarization mean for the future of the US and the world?
+              What do the current political and cultural polarization, increasing wealth inequality, and ongoing de-dollarization mean for the future of the US and the world?
             </li>
             <li className="text-muted-foreground">
               How does the increasing financialization of the US economy affect the way we live and work?
@@ -159,13 +156,7 @@ export const Home = () => {
               How do we define personal identity? Can AI ever have a personal identity?
             </li>
             <li className="text-muted-foreground">
-              How do the narratives we tell ourselves shape our reality and identities?
-            </li>
-            <li className="text-muted-foreground">
               What is the psychological function of religion in society? Is technology the new religion?
-            </li>
-            <li className="text-muted-foreground">
-              The concept of non-self in Buddhism, and the nature of emptiness and the void
             </li>
             <li className="text-muted-foreground">
               How did the history of US China relations lead up to the 2019 Hong Kong protests, and how does it shape the identity of Hong Kongers today?
@@ -181,7 +172,7 @@ export const Home = () => {
       >
         <h2 className="text-base font-bold">Favorite Books &amp; Films</h2>
         <div>
-          <p className="text-muted-foreground mb-3">Books or movies that struck a chord</p>
+          <p className="mb-3">Books or movies that struck a chord.</p>
           <ul className="list-disc pl-5 space-y-2 pb-3 marker:text-stone-400">
             <li className="text-muted-foreground">
               <em>Brave New World</em> — Aldous Huxley

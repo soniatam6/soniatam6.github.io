@@ -21,7 +21,7 @@ export const Writing = () => {
       >
         <div>
           <p className="mb-3">
-            Reflections and ramblings about everything from the impact of AI on humans to culture to the human condition.
+            Reflections and ramblings about everything from the impact of AI to the human condition.
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>

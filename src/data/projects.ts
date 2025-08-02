@@ -18,7 +18,7 @@ export const projects: Project[] = [
     year: "2025",
     role: "Personal Project",
     blurb:
-      "Using AI tools to rethink how to make the AI generated summary in Glean's search results page can better help employees make informed decisions",
+      "Using AI tools to rethink how to make the AI generated summary in Glean's search results page can better help employees make informed decisions.",
     imageSrc: "/images/projects/search/hero.png",
     imageAlt: "AI search results page redesign",
   },

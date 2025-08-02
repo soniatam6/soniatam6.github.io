@@ -4,6 +4,7 @@ const navigationItems = [
   { id: "home", label: "About" },
   { id: "past-work", label: "Projects" },
   { id: "writing", label: "Writing" },
+  { id: "music", label: "Music" },
 ];
 
 interface NavigationProps {
