@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { Navigation } from "@/components/Navigation";
 import { Home } from "@/components/sections/Home";
-import { PastWork } from "@/components/sections/PastWork";
+import { Projects } from "@/components/sections/Projects";
 import { Writing } from "@/components/sections/Writing";
 import { Music } from "@/components/sections/Music";
 import { Footer } from "@/components/Footer";
 
 const navigationItems = [
   { id: "home", label: "Home" },
-  { id: "past-work", label: "Projects" },
+  { id: "projects", label: "Projects" },
   { id: "writing", label: "Writing" },
   { id: "music", label: "Music" },
 ] as const;
@@ -22,8 +22,8 @@ const Portfolio = () => {
     switch (activeSection) {
       case "home":
         return <Home />;
-      case "past-work":
-        return <PastWork />;
+      case "projects":
+        return <Projects />;
       case "writing":
         return <Writing />;
       case "music":

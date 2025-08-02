@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import PortfolioLayout from "@/layouts/PortfolioLayout";
 import { Home } from "@/components/sections/Home";
-import { PastWork } from "@/components/sections/PastWork";
+import { Projects } from "@/components/sections/Projects";
 import { PersonalProjects } from "@/components/sections/PersonalProjects";
 import { Writing } from "@/components/sections/Writing";
 import { Music } from "@/components/sections/Music";
@@ -22,15 +22,15 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-      <ScrollToTop />
+        <ScrollToTop />
         <Routes>
           {/* ----- main layout with nav + footer ----- */}
           <Route element={<PortfolioLayout />}>
 
             <Route index element={<Home />} />
 
-            <Route path="past-work">
-              <Route index element={<PastWork />} />
+            <Route path="projects">
+              <Route index element={<Projects />} />
               <Route path=":slug" element={<ProjectDetail />} />
             </Route>
 

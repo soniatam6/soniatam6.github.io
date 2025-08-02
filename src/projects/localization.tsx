@@ -15,7 +15,7 @@ export default function Localization() {
       <main className="mx-auto max-w-3xl">
         <article className="mx-auto max-w-3xl font-serif">
           {/* back link */}
-          <Link to="/past-work" className={linkCls}>
+          <Link to="/projects" className={linkCls}>
             ← Back to projects
           </Link>
 

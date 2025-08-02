@@ -15,7 +15,7 @@ export default function Search() {
             <main className="mx-auto px-4">
                 <article className="mx-auto px-4">
                     {/* back link */}
-                    <Link to="/past-work" className={linkCls}>
+                    <Link to="/projects" className={linkCls}>
                         ← Back to projects
                     </Link>
 

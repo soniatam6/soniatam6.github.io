@@ -7,7 +7,7 @@ const linkCls =
   "text-muted-foreground decoration-stone-400 " +
   "hover:text-primary hover:decoration-stone-600 transition-colors";
 
-export function PastWork() {
+export function Projects() {
   return (
     <div className="mx-auto max-w-3xl">
       <h1 className="mb-10 text-3xl font-serif font-medium text-foreground">
@@ -15,10 +15,10 @@ export function PastWork() {
       </h1>
 
 
-      <div id="past-work" className="grid gap-8 sm:gap-10 sm:grid-cols-2">
+      <div id="projects" className="grid gap-8 sm:gap-10 sm:grid-cols-2">
         {projects.map((p) => (
           <article key={p.slug} className="group">
-            <Link to={`/past-work/${p.slug}`} className="block">
+            <Link to={`/projects/${p.slug}`} className="block">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-[#D6D3CB] bg-white">
                 <img
                   src={p.imageSrc}
@@ -32,7 +32,7 @@ export function PastWork() {
             <header className="mt-4">
               <h2 className="text-lg font-serif text-foreground">
                 <Link
-                  to={`/past-work/${p.slug}`}
+                  to={`/projects/${p.slug}`}
                   className="no-underline hover:text-primary transition-colors"
                 >
                   {p.title}

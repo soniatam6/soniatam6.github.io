@@ -106,9 +106,6 @@ export const Home = () => {
               Playing the pipe organ
             </li>
             <li className="text-muted-foreground">
-              Muay Thai / boxing
-            </li>
-            <li className="text-muted-foreground">
               The <a href="https://en.wikipedia.org/wiki/Sublime_(philosophy)" className={linkCls}>
                 sublime
               </a>, Surrealist art, Romanticist paintings

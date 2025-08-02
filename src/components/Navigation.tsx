@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const navigationItems = [
   { id: "home", label: "About" },
-  { id: "past-work", label: "Projects" },
+  { id: "projects", label: "Projects" },
   { id: "writing", label: "Writing" },
   { id: "music", label: "Music" },
 ];
