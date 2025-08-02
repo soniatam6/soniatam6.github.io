@@ -19,14 +19,14 @@ export default function PortfolioLayout() {
 
   return (
     <div className="min-h-screen bg-background font-serif flex flex-col">
-      {/* fixed nav */}
+      {/* Desktop navigation */}
       <Navigation activeSection={active} onSectionChange={(id) => {
         const url = id === "home" ? "/" : `/${id}`;
         navigate(url);
       }} />
 
       {/* main content */}
-      <main className="flex-1 md:ml-40 px-6 py-12">
+      <main className="flex-1 sm:ml-40 px-4 sm:px-6 py-12 pt-16 sm:pt-12">
         <div className="mx-auto w-full max-w-3xl">
           <Outlet />
         </div>

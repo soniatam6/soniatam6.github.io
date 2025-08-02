@@ -9,9 +9,9 @@ export function Footer() {
 
   return (
     <footer className="mt-16 border-t border-[#D6D3CB]">
-      {/* 1) outer wrapper mirrors <main class="md:ml-40 px-6"> */}
-      <div className="md:ml-40 px-6">
-        {/* 2) inner container mirrors <div class="mx-auto max-w-3xl"> */}
+      {/* responsive wrapper matches layout */}
+      <div className="sm:ml-40 px-4 sm:px-6">
+        {/* inner container */}
         <div className="mx-auto max-w-3xl py-6 font-serif text-sm text-muted-foreground">
           Last updated {label} · Built with{" "}
           <a
