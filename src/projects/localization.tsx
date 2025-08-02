@@ -62,7 +62,7 @@ export default function Localization() {
                 <li>Revise images and repeat for any changes</li>
                 <li>Bulk update CMS assets directly from Figma</li>
               </ul>
-              <p>Around end of April, we were facing a lot of stakeholder pressure from the CEO to launch the website, as he was about to attend a large investor event in 2 weeks and wanted to show the revamped website then. Waiting around 4-6 more weeks for manual localization was not an option — we needed a solution optimized for speed and accuracy.</p>
+              <p>As we were wrapping up the development of the website, we were facing a lot of stakeholder pressure from the CEO to launch the website, as he was about to attend a large investor event in 2 weeks and wanted to show the revamped website then. Waiting around 4-6 more weeks for manual localization was not an option — we needed a solution optimized for speed and accuracy.</p>
             </div>
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">My Solution</h2>

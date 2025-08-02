@@ -43,7 +43,7 @@ export default function Corpsite() {
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">Overview</h2>
               <p>
-                Airwallex is a cross-border payments unicorn startup based in Asia. During my time there, they were scaling rapidly, expanding into the embedded finance space,
+                Airwallex is a cross-border payments unicorn based in Asia. During my time there, they were scaling rapidly, expanding into the embedded finance space,
                 and needed to revamp their corporate site to better reflect their product offerings and global presence.
               </p>
             </div>
@@ -53,16 +53,23 @@ export default function Corpsite() {
                 Airwallex’s rapid scaling and its expansion into embedded finance made the existing
                 corporate website feel outdated and unrepresentative. Externally, potential customers and investors landing on a product page couldn’t immediately
                 grasp what each product was, how it worked, or why it mattered. Internally, teams from product, marketing, and sales lacked a shared,
-                consistent narrative to answer those very questions. The website revamp project therefore had to serve two goals: craft clear,
-                persuasive landing pages that laid out the “what, how, and why” for users, while also aligning every stakeholder around a single,
-                coherent narrative for each product.
+                consistent narrative to answer those very questions. The website revamp project therefore had to serve two goals:
               </p>
+              <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">
+                <li>craft clear,
+                  persuasive landing pages for each product that laid out the “what, how, and why” for users
+                </li>
+                <li>align every stakeholder around a single,
+                  coherent narrative for each product
+                </li>
+              </ol>
+
             </div>
 
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">My Role</h2>
               <p>
-                As product designer and product owner of the website, I led the revamp of Airwallex’s corporate site. This involved working iteratively with product, marketing, design, C-suite executives, and sales teams to define the product
+                As the product designer and product owner of the website, I led the revamp of Airwallex’s corporate site. This involved working iteratively with product, marketing, design, C-suite executives, and sales teams to define the product
                 positioning for each of products, gradually building alignment across all stakeholders amidst the ambiguity. Through design, I translated these narratives into landing pages that clearly articulated the what, how, and why of each product.
                 I also worked closely with the engineering team define the mobile designs, responsive behavior, content modeling, and design system. </p>
               <p>After months of work, I led the team to launch the revamped site localized to each of the 11 regions,
@@ -90,7 +97,7 @@ export default function Corpsite() {
             </figure>
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">Reflection</h2>
-              <p>This was the first project that really gave me a taste of what ownership, stakeholder management, navigating ambiguity truly meant.
+              <p>This was the first project that really gave me a taste of what ownership, stakeholder management, and navigating ambiguity truly meant.
                 It was probably the most challenging yet rewarding project that I’ve been on so far, given I was taking on a lot of responsibility as just an intern.
                 I was incredibly fortunate to be given this opportunity and to receive a lot of mentorship during my internship, and I grew and matured immensely
                 both personally and professionally.</p>
@@ -109,6 +116,6 @@ export default function Corpsite() {
         </article>
       </main>
 
-    </div>
+    </div >
   );
 }

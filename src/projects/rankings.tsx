@@ -24,7 +24,7 @@ export default function Rankings() {
             Coinbase Rankings Leaderboard
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            May - Aug 2024 · Associate Product Manager Intern
+            May - Aug 2024 · Associate Product Management Intern
           </p>
 
           {/* hero image */}

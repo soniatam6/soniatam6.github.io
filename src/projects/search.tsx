@@ -42,7 +42,7 @@ export default function Search() {
                             <p>
                                 I've personally noticed that AI search summaries have been making people more intellectually lazy. This is a personal case study
                                 on how to reimagine Glean's AI search results page to enhance, not dull, human thought. I used a combination of Lovable and Figma Make
-                                to build a working prototype in 2 days, and wrote my thoughts and reflection what it means to be enhanced by AI.
+                                to build a working prototype in 2 days, and wrote my thoughts and reflection on what it means to be enhanced by AI.
                             </p>
                         </div>
 
@@ -66,7 +66,7 @@ export default function Search() {
                                 <li>the scope is relatively more manageable to work with since there is a contained amount of information about a company, unlike Google with so much data, so many users and use cases.
                                 </li>
                                 <li>the problem of humans not thinking critically about AI summaries is substantially more important with the employee / workplace data use case – inside a company, every employee makes
-                                    decisions that carry real consequences, whether in legal, financial, strategic, or product decisions. If an employee misinterprets an AI summary, the potential consequences are
+                                    decisions that carry real consequences, whether legal, financial, strategic, or product decisions. If an employee misinterprets an AI summary, the potential consequences are
                                     real for the company.
                                 </li>
                             </ul>
@@ -88,7 +88,7 @@ export default function Search() {
                                 <p className="text-sm leading-6 text-foreground">
                                     <strong className="font-medium">How might we </strong>
                                     redesign Glean's AI powered search results page so employees can still enjoy easily accessible answers yet remain
-                                    motivated to verify sources and make informed business decisions?
+                                    motivated to think critically in order to make informed business decisions?
                                 </p>
                             </div>
 
@@ -146,7 +146,7 @@ export default function Search() {
                     <div className="mt-10 space-y-2">
                         <h2 className="text-3xl text-foreground">(Mini) User Research</h2>
                         <p className="text-muted-foreground">
-                            To understand when users would prefer AI-powered search answers vs traditional list search results, I ran a mini user research experiment at Penn.
+                            To understand when users would prefer AI-powered search answers vs traditional list of search results, I ran a mini user research experiment at Penn.
                             Since I didn't have access to Glean users, I showed 8 of my friends two static UIs side-by-side: an AI summarized search results page and a
                             classic ranked list results page. I asked each of them 4 different prompts – two were direct questions ("What is Lovable AI?" and
                             "what are the prerequisites for CIS 2620?") and two exploratory keyword queries ("random name generator" and "cute cats"). For each of the prompts,
@@ -161,7 +161,7 @@ export default function Search() {
                         </figure>
                         <p className="text-muted-foreground">The results were consistent – 7 out of 8 of my friends picked the AI overview UI for the question prompts, saying they just wanted to "see a direct answer".
                             All 8 said they would prefer the list view for keyword prompts, saying they wanted to browse different options and that the AI summary would be useless
-                            in that scenario. My main takeaway was that AI summaries in search results are useful mainly for question queries, where users expect an answer.
+                            in that scenario. My main takeaway was that AI summaries are useful mainly for question queries, where users expect a clear answer.
                         </p>
                         <p className="text-muted-foreground">My assumption here is that Glean has some sort of algorithm or engine to decide when a user should see an AI generated summary vs a traditional
                             list format on their search results page. Given I wanted to focus on reimagining the AI powered search results, I therefore decided to focus only on question type queries, where a
@@ -172,7 +172,7 @@ export default function Search() {
                         <h2 className="text-3xl text-foreground">Synthesis, Scoping & Ideation</h2>
                         <p className="text-muted-foreground">
                             Knowing all of this, let’s focus on one specific user story:
-                            an employee who asks a question to Glean Search, and who has stakes in what the AI gives as an answer.
+                            an employee who asks a question to Glean Search, and has stakes in what the AI gives as an answer.
                         </p>
                         <figure className="overflow-hidden max-w-md mx-auto rounded-lg">
                             <img
@@ -196,12 +196,12 @@ export default function Search() {
                         <p className="text-muted-foreground"> Based on these qualities, we can turn these into tangible design changes:
                         </p>
                         <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">
-                            <li><strong>Direct quotations</strong> that lead to a doc preview of the highlighted quote in the document
-                                The preview could show Author, Last edited, and highlights exactly where the quote comes from so that
-                                users can see what context the quote is in and decide for themselves whether that is a valid thing to believe or bench on
+                            <li><strong>Direct quotations</strong> that lead to a doc preview of the highlighted quote in the document.
+                            The preview could show author, when it was last edited, and highlights exactly where the quote comes from so that
+                                users can see what context the quote is in and decide for themselves whether that is a valid thing to believe in or not.
                             </li>
-                            <li><strong>Author chips</strong> – adding an easy way for the user to reach out to the relevant contributors to the project so that they can easily ask follow up questions </li>
-                            <li><strong>Confidence banner</strong> – if sources conflict (say one Slack thread says this about the latest, but the Infra project document says another) then AI should flag that and tell the user to clarify </li>
+                            <li><strong>Author chips</strong> – adding an easy way for the user to reach out to the relevant contributors to the project so that they can easily ask follow up questions. </li>
+                            <li><strong>Confidence banner</strong> – if sources conflict (say one Slack thread says this about the latest, but the Infra project document says another) then AI should flag that and tell the user to clarify with the relevant people.</li>
                         </ol>
                     </div>
                     <div className="mt-10 space-y-2">
@@ -228,11 +228,12 @@ export default function Search() {
                         <h2 className="text-3xl text-foreground">Reflections on Using AI</h2>
                         <p className="text-muted-foreground">For this project, I used both Lovable and Figma Make to generate the prototype.
                             Both Figma Make and Lovable are AI prompt and build tools, similar to bolt.dev. Both are great. There’s not much difference between them.
-                            Both are incredible for a product manager who wants to quickly put together a working proof-of-concept or demo to show stakeholders –
-                            I felt like I was literally supercharged, like I’d just ran over the rainbow speed enhancing thing in Super Mario Kart.
-                            But I’m not sure if I would rely on either of them for production level apps. For one, I think the visual aesthetic quality that these apps
+                            Both are incredible for my purpose here, which was to build a working proof-of-concept. As I was building the prototype,
+                            I felt like I was literally supercharged, like I’d just run over the rainbow speed enhancing thing in Super Mario Kart.
+                            </p>
+                            <p className="text-muted-foreground">However, I’m not sure if I would rely on either of them for production level apps. For one, I think the visual aesthetic quality that these apps
                             generate simply isn't product level design quality, so I still see designers being very relevant as they have to design something in Figma
-                            before feeding it into Lovable/Figma Make. But these apps do indicate a huge shift in where the product development world is headed.
+                            before feeding it into Lovable/Figma Make. But these apps do indicate a huge shift in where the product development world is headed. Exciting stuff!
                         </p>
                         <p className="text-muted-foreground">You can read more about my thoughts and reflection <a href="https://soniatam.substack.com/p/ai-as-augmentation-not-replacement" className={linkCls}>
                             here.
