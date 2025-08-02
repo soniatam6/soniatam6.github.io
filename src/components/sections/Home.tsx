@@ -31,7 +31,7 @@ export const Home = () => {
 
       {/* ---------- Past work ---------- */}
       <section
-        id="past-work"
+        id="projects"
         className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
         <h2 className="text-base font-bold">Past Work</h2>
@@ -41,17 +41,17 @@ export const Home = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 marker:text-stone-400 text-muted-foreground">
             <li>
-              <p> Shipped a self-serve <a href="/past-work/rankings" className={linkCls}>rankings leaderboard </a>for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls}>
+              <p> Shipped a self-serve <a href="/projects/rankings" className={linkCls}>rankings leaderboard </a>for institutional market makers for <a href="https://international.coinbase.com/?tab=derivatives" className={linkCls}>
                 Coinbase International Exchange.
               </a> Also launched the trading UI for the exchange and shipped features like TPSL. </p>
             </li>
             <li>
-              <p>Redesigned all 17 of Airwallex's <a href="/past-work/corpsite" className={linkCls}>product landing pages </a> for their website and
-                launched it in 11 regions within 6 months. Built an <a href="/past-work/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
+              <p>Redesigned all 17 of Airwallex's <a href="/projects/corpsite" className={linkCls}>product landing pages </a> for their website and
+                launched it in 11 regions within 6 months. Built an <a href="/projects/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
               <p>Worked closely with the cofounder / Head of Design of Airwallex for a year, doing everything for the design team from helping out with recruiting candidates, design operations, to building
-                an AI <a href="/past-work/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers.</p>
+                an AI <a href="/projects/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers.</p>
             </li>
             <li>
               <p>Co-founded <a href="https://drive.google.com/file/d/1R1MJZVozLimkxFvCyaOmbg-Znoi9JbeY/view?usp=sharing" className={linkCls}>Cabrium AI</a>, a startup aimed to empower product designers 
@@ -73,7 +73,7 @@ export const Home = () => {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground marker:text-stone-400">
             <li>
-              <p> Using AI tools to reimagine the <a href="/past-work/search" className={linkCls}>
+              <p> Using AI tools to reimagine the <a href="/projects/search" className={linkCls}>
                 AI search results experience
               </a></p>
             </li>
