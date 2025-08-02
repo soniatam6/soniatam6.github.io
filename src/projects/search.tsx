@@ -210,7 +210,7 @@ export default function Search() {
                         <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">
                             <li>Click on purple highlighted quotes to open up a document preview to see where the quote came from
                             </li>
-                            <li>Hover over the people to see how you can reach out to them</li>
+                            <li>Click on the people to see how you can reach out to them</li>
                             <li>Click on the red highlighted quote to see warning banners regarding conflicting information </li>
                         </ol>
                         <p className="text-muted-foreground">This was put together using a combination of Lovable and Figma Make in ~2 days, so this is definitely not production level design quality. But I had a lot of fun playing around with it.</p>
