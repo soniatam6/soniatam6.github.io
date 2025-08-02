@@ -10,7 +10,7 @@ transition-colors duration-150 focus:outline-none focus-visible:ring-1 focus-vis
 
 export const Music = () => {
     return (
-        <div className="max-w-2xl">
+        <div className="w-full max-w-[68ch]">
             <h2 className="text-2xl font-serif font-medium mb-8 text-foreground">
                 Music
             </h2>
@@ -28,7 +28,7 @@ export const Music = () => {
                     <audio
                         controls
                         controlsList="nodownload"
-                        className="w-full max-w-lg"
+                        className="w-full max-w-lg mx-auto block"
                     >
                         <source src="/music/Toccata%20Final%20Recording.m4a" type="audio/mp4" />
                     </audio>
@@ -39,7 +39,7 @@ export const Music = () => {
                     <audio
                         controls
                         controlsList="nodownload"
-                        className="w-full max-w-lg"
+                        className="w-full max-w-lg mx-auto block"
                     >
                         <source src="/music/Adagio%20in%20G%20minor.m4a" type="audio/mp4" />
                     </audio>
@@ -50,7 +50,7 @@ export const Music = () => {
                     <audio
                         controls
                         controlsList="nodownload"
-                        className="w-full max-w-lg"
+                        className="w-full max-w-lg mx-auto block"
                     >
                         <source src="/music/Feng%20Xiu%20Zhu.m4a" type="audio/mp4" />
                     </audio>

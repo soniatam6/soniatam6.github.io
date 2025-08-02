@@ -23,7 +23,7 @@ export const Home = () => {
         <div>
           <p className="text-muted-foreground">
             I recently graduated from the University of Pennsylvania, where I
-            studied Cognitive Science and Computer Science. I’m interested in complex systems — anything
+            studied Cognitive Science and Computer Science. I'm interested in complex systems — anything
               from the human psyche to the artificial mind to the macroeconomic machine. I'm currently interested in how AI can augment, not replace, humans.
           </p>
         </div>
@@ -32,7 +32,7 @@ export const Home = () => {
       {/* ---------- Past work ---------- */}
       <section
         id="past-work"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
+        className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
         <h2 className="text-base font-bold">Past Work</h2>
         <div>
@@ -64,7 +64,7 @@ export const Home = () => {
       {/* ---------- Personal projects ---------- */}
       <section
         id="personal-projects"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
+        className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
         <h2 className="text-base font-bold">Personal Projects</h2>
         <div>
@@ -91,7 +91,7 @@ export const Home = () => {
       {/* ---------- Things I love ---------- */}
       <section
         id="things-i-love"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
+        className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
         <h2 className="text-base font-bold">Things I Love</h2>
         <div>
@@ -126,9 +126,9 @@ export const Home = () => {
       {/* ---------- Curious about ---------- */}
       <section
         id="things-im-curious-about"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
+        className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
-        <h2 className="text-base font-bold">Things I’m Curious About</h2>
+        <h2 className="text-base font-bold">Things I'm Curious About</h2>
         <div>
           <p className="mb-3">
             Questions and topics that have fascinated me lately.
@@ -165,7 +165,7 @@ export const Home = () => {
       {/* ---------- Read / watch ---------- */}
       <section
         id="things-i-read-watch"
-        className="grid grid-cols-[200px,1fr] gap-x-8 gap-y-2 mb-12"
+        className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
         <h2 className="text-base font-bold">Favorite Books &amp; Films</h2>
         <div>

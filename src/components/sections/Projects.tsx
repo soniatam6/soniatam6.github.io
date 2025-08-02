@@ -15,11 +15,11 @@ export function Projects() {
       </h1>
 
 
-      <div id="projects" className="grid gap-8 sm:gap-10 sm:grid-cols-2">
+      <div id="projects" className="grid gap-6 sm:gap-8 sm:grid-cols-2">
         {projects.map((p) => (
           <article key={p.slug} className="group">
             <Link to={`/projects/${p.slug}`} className="block">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-[#D6D3CB] bg-white">
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg border border-[#D6D3CB] bg-white">
                 <img
                   src={p.imageSrc}
                   alt={p.imageAlt}

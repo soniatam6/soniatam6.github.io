@@ -20,7 +20,7 @@ export const Navigation = ({
   onSectionChange,
 }: NavigationProps) => {
   return (
-    <nav className="fixed left-4 md:left-8 top-1/2 -translate-y-1/2 z-10 hidden md:block">
+    <nav className="fixed left-4 md:left-8 top-1/2 -translate-y-1/2 z-10 hidden sm:block">
       <ul className="space-y-2">
         {navigationItems.map((item) => (
           <li key={item.id}>

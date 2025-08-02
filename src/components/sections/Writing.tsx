@@ -10,7 +10,7 @@ transition-colors duration-150 focus:outline-none focus-visible:ring-1 focus-vis
 
 export const Writing = () => {
   return (
-    <div className="max-w-2xl">
+    <div className="w-full max-w-[68ch]">
       <h2 className="text-2xl font-serif font-medium mb-8 text-foreground">
         Writing
       </h2>

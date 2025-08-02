@@ -19,8 +19,8 @@ const loaders: Record<string, () => Promise<{ default: React.ComponentType }>> =
 /* fallback styling */
 const Wrapper = ({ children }: { children: React.ReactNode }) => (
   <div className="min-h-screen flex flex-col font-serif">
-    <main className="flex-1 md:ml-40 px-6 py-24 text-foreground">
-      <div className="mx-auto max-w-3xl">{children}</div>
+    <main className="flex-1 sm:ml-40 px-4 sm:px-6 py-16 sm:py-24 text-foreground">
+      <div className="mx-auto max-w-3xl w-full">{children}</div>
     </main>
     <Footer />
   </div>
