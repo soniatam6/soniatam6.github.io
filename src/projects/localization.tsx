@@ -48,6 +48,7 @@ export default function Localization() {
                 manually wouldn’t work, I led the initiative to build a localization automation tool to help with the process,
                 leading a team of two other designers and a senior developer to build the tool.
               </p>
+ 
             </div>
 
             <div className="space-y-2">
@@ -76,6 +77,16 @@ export default function Localization() {
                 <li>Bulk upload and assign images on CMS</li>
                 <li>Bulk update CMS assets directly from Figma</li>
               </ul>
+                           <div>
+                <a
+                  href="https://github.com/soniatam6/awx-localization"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border border-input border-stone-300 px-4 py-2 text-sm font-medium text-foreground transition"
+                >
+                  View GitHub Repo →
+                </a>
+              </div>
             </div>
             <div className="space-y-2">
               <h2 className="text-2xl text-foreground">Results</h2>
@@ -129,11 +140,11 @@ export default function Localization() {
               </p>
               <ul className="list-disc pl-4">
                 <li><strong>Interdependency tracking: </strong>
-                often times people’s time and efforts are lost when their work depends on someone else’s and they’re waiting on the other. As a product manager, I learned to maximize everyone’s time and energy by making sure they were not wasting their time and efforts</li>
+                  often times people’s time and efforts are lost when their work depends on someone else’s and they’re waiting on the other. As a product manager, I learned to maximize everyone’s time and energy by making sure they were not wasting their time and efforts</li>
                 <li><strong>Prioritization: </strong>
-                with so much to do, so little time, and so much pressure from stakeholders, there was a constant need to prioritize which were the most worthwhile initiatives to dedicate effort into.</li>
+                  with so much to do, so little time, and so much pressure from stakeholders, there was a constant need to prioritize which were the most worthwhile initiatives to dedicate effort into.</li>
                 <li><strong>Leading by example: </strong>
-                as the main driver of this initiative, I realized how important it was to lead by example. If I wasn’t in the trenches with them, the team would not feel motivated to work with me. In that way, I learned how to gain respect from my team.</li>
+                  as the main driver of this initiative, I realized how important it was to lead by example. If I wasn’t in the trenches with them, the team would not feel motivated to work with me. In that way, I learned how to gain respect from my team.</li>
               </ul>
             </div>
           </section>

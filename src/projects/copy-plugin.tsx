@@ -56,6 +56,16 @@ export default function Rankings() {
                 offers a one‑click “before / after” suggestion, lets designers bulk‑apply fixes, and captures down‑votes with a reason.
                 Those rejections are sent to Splunk so the design team can spot unclear rules and work together to refine the guidelines.
               </p>
+              <div>
+                <a
+                  href="https://github.com/soniatam6/copy-plugin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border border-input border-stone-300 px-4 py-2 text-sm font-medium text-foreground transition"
+                >
+                  View GitHub Repo →
+                </a>
+              </div>
             </div>
           </section>
         </article>
