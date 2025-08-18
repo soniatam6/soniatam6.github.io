@@ -22,9 +22,10 @@ export const Home = () => {
       >
         <div>
           <p className="text-muted-foreground">
-            I recently graduated from the University of Pennsylvania, where I
+            Currently a Product Manager at Coinbase, working on building ways to help crypto traders pay taxes. 
+            Recently graduated from the University of Pennsylvania, where I
             studied Cognitive Science and Computer Science. I'm interested in complex systems — anything
-              from the human psyche to the artificial mind to the macroeconomic machine. I'm currently interested in how AI can augment, not replace, humans.
+              from the human psyche to the artificial mind to the macroeconomic machine.
           </p>
         </div>
       </section>
@@ -124,7 +125,7 @@ export const Home = () => {
       </section>
 
       {/* ---------- Curious about ---------- */}
-      <section
+      {/* <section
         id="things-im-curious-about"
         className="mb-12 space-y-6 sm:grid sm:grid-cols-[200px,1fr] sm:gap-x-8 sm:gap-y-2 sm:space-y-0"
       >
@@ -160,7 +161,7 @@ export const Home = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       {/* ---------- Read / watch ---------- */}
       <section
