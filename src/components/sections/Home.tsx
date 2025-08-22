@@ -51,7 +51,7 @@ export const Home = () => {
                 launched it in 11 regions within 6 months. Built an <a href="/projects/localization" className={linkCls}>image localization tool</a> along the way to help the team overcome some hurdles.</p>
             </li>
             <li>
-              <p>Worked closely with the cofounder / Head of Design of Airwallex for a year, doing everything for the design team from helping out with recruiting candidates, design operations, to building
+              <p>Doing everything for Airwallex's design team from helping out with recruiting candidates, design operations, to building
                 an AI <a href="/projects/plugin" className={linkCls}> copy suggestion Figma plugin</a> for product designers.</p>
             </li>
             <li>

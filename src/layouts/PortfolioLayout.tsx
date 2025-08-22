@@ -8,7 +8,7 @@ function pathToSection(path: string): string {
   if (path.startsWith("/projects")) return "projects";
   if (path.startsWith("/personal-projects")) return "personal-projects";
   if (path.startsWith("/writing")) return "writing";
-  if (path.startsWith("/music")) return "music";
+  // if (path.startsWith("/music")) return "music";
   return "home";
 }
 

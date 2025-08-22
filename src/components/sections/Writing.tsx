@@ -57,7 +57,7 @@ export const Writing = () => {
           </ul>
         </div>
       </section>
-      <section
+      {/* <section
         id="writing"
         className="gap-x-8 gap-y-2 mb-12"
       >
@@ -91,7 +91,7 @@ export const Writing = () => {
             </a></p>
           </li>
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 };
